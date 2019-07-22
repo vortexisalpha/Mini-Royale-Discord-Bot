@@ -888,4 +888,4 @@ client.on('message', message => {
  });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTk5OTc1MDY5MTM2OTc3OTMx.XTYsUQ.Iyr-0noS4VbhKBrOBAPIIwnFJTY);
