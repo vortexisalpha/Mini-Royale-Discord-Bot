@@ -3,7 +3,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const token = "NTk5OTc1MDY5MTM2OTc3OTMx.XStFxA.caRJfpu84OMxsKFAYQwVeMEdD_8";
+const token = process.env.DISCORD_TOKEN;
+if (!token) {
+  throw new Error("DISCORD_TOKEN environment variable is required");
+}
 var number = 0;
 var pl = "";
 var lobby = 0;
